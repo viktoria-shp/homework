@@ -1,0 +1,68 @@
+p{
+	margin: 5px;
+}
+.main{
+	width: 1000px;
+  margin: 0 auto;
+}
+.header h1{
+	border-bottom: 2px solid;
+  font-size: 75px;
+  margin-bottom: 15px;
+}
+.leftcol{
+	width: 20%;
+	float: left;
+}
+.row{
+	position: relative;
+	display: block;
+	margin-bottom: 50px;
+}
+.row:after{
+	content: "";
+	clear:both;
+	display: block;
+}
+.clearfix{
+	clear: both;
+}
+.rightcol{
+	width: 80%;
+	float: left;
+}
+.leftcol p{
+	font-size: 20px;
+}
+.rightcol p{
+	font-size: 14px;
+}
+.rightcol .t1{
+	width: 40%;
+	float: left;
+}
+.rightcol .t2{
+	width: 20%;
+	float: left;
+}
+.rightcol .t3{
+	width: 30%;
+	float: right;
+}
+.rightcol .t3 p{
+	text-align: right;
+}
+.rightcol .big-font,
+.rightcol .big-font p{
+	font-size: 27px;	
+}
+.rightcol .two-cols p{
+	display: inline-block;
+}
+.indent-top{
+	margin-top: 15px;
+}
+.align-right{
+	text-align: right;
+	float:right;
+}
