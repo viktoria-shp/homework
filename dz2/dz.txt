@@ -1,0 +1,24 @@
+http://prntscr.com/mbvnji
+
+.header має 2 блоки .header-logo і .header-nav-search
+зверху border-bottom
+в .header-logo може бути або логотип або логотип/назва і слоган
+в .header-nav-search є два блоки .header-nav(звичайна навігація <ul>або<nav>) і .header-search(форма з одним полем(input) для пошуку з іконкою)
+http://prntscr.com/mbvyi3
+Контейнер .article звичайний блок з текстом + стилі
+Контейнер .slider це блок, структура якого буде відрізнятися в залежності від вибору бібліотеки
+http://prntscr.com/mbw6vk
+
+http://prntscr.com/mbvr5s
+В контейнері .inform-container містяться три однакових контейнери .item-container, який в свою чергу містить .img .text .title. контейнери. Дані підблоки всі можуть бути посиланнями, як і весь блок в цілому.
+http://prntscr.com/mbw9wn
+В контейнері .cards-container також містяться три однакових контейнери .item-container, який в свою чергу містить .img .text .title контейнери. Зовнішній вигляд блоків залежатиме від стилів css. Дані підблоки також всі можуть бути посиланнями, як і весь блок в цілому.
+
+http://prntscr.com/mbvtik
+.footer-container містить два основних блоки .footer-main та .footer-bottom, кожен з яких містить в собі ще кілька блоків.
+https://prnt.sc/mbwj97
+Блоки .copyright та .autor  містять в собі текст
+Блоки .links та .blog  містять в собі ще кілька блоків з текстом, заголовками, та посиланнями
+Блок .contact складається з тексту та заголовку
+Блок .contact-form містить заголовок, 2 поля input та кнопку button
+
