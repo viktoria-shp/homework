@@ -1,0 +1,157 @@
+body{
+	background-color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header__top{
+background-color: #3f4e87;
+margin-bottom: 2px;
+}
+.contact{
+  overflow: hidden;
+  padding: 10px;
+}
+.contact__title{
+  float: left;
+  color: white;
+}
+.contact__phones{
+  float: left;
+}
+.contact__phones a{
+  color: #8eb1df;
+  padding-left: 10px;
+}
+.contact__link{
+  float: right;
+}
+.contact__link a{
+  color: #87b7ff;
+}
+.logo{
+  width: 250px;
+  background-color: #ededed;
+}
+.header__main > .logo,.header__main > .preference {
+  background: #eee;
+  float: left;
+  width: 25%;
+  height: 60px;
+  background-repeat: no-repeat;
+}
+.preference{
+  padding: 15px 0;
+  text-align: center;
+}
+.preference.expirience{
+  background-image: url(../img/expirience.jpg);
+  background-size: cover;
+}
+.preference.method{
+  background-image: url(../img/method.jpg);
+  background-size: cover;
+}
+.preference.approach{
+  background-image: url(../img/approach.jpg);
+  background-size: cover;
+}
+.preference__text{
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.preference.approach .preference__text{
+  line-height: 20px;
+}
+.clearfix{
+  clear: both;
+}
+
+.preference__icon{
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+  padding-right: 25px;
+}
+.preference__icon img{
+  height: 30px;
+}
+.left-col{
+  width: 25%;
+  margin-top: 25px;
+
+}
+.right-col{
+  width: 75%
+}
+.left-col nav li{
+  width: 97%;
+  background-color: #e4e5e9;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #d7d8db;
+}
+.left-col nav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  display: inline-block;
+  padding-left: 15px;
+}
+* ul{
+  list-style: none;
+}
+
+.left-col nav li.active{
+  background-color: #3f4e87;
+  position: relative;
+}
+
+.left-col nav li.active:after{
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid #3f4e87;
+  position: absolute;
+  right: -14px;
+  top: 0;
+}
+
+.left-col nav .subnav{
+  background-color: #e4e5e9;
+  padding-left: 25px
+}
+
+.left-col nav .subnav li::before {
+  content: "\2022";  
+  color: #3f4e87;
+  font-weight: bold; 
+  display: inline-block; 
+  margin: 0 -10px;
+}
+.left-col nav .subnav li{
+  width: 100%;
+
+}
